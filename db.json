@@ -1,0 +1,54 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed hard drive on ww 005",
+      "attencion": false,
+      "date": "03-02-2019",
+      "tech": "Alex jj"
+    },
+    {
+      "id": 2,
+      "message": "Chaadrive on ww 005",
+      "attencion": false,
+      "date": "03-02-2019",
+      "tech": "Alex"
+    },
+    {
+      "id": 3,
+      "message": "Changes drive on ww 005",
+      "attencion": false,
+      "date": "03-02-2019",
+      "tech": "Alex j"
+    },
+    {
+      "message": "Changed",
+      "attencion": true,
+      "date": "03-02-2019",
+      "tech": "Alex jj",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Alex",
+      "lastName": "jj"
+    },
+    {
+      "id": 2,
+      "firstName": "Alex",
+      "lastName": "j"
+    },
+    {
+      "id": 3,
+      "firstName": "Alex",
+      "lastName": ""
+    },
+    {
+      "firstName": "maria",
+      "lastName": "db",
+      "id": 4
+    }
+  ]
+}
