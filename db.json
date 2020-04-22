@@ -2,31 +2,17 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed hard drive on ww 005",
+      "message": " uauuaas",
       "attencion": false,
-      "date": "03-02-2019",
-      "tech": "Alex jj"
+      "tech": "Jonh",
+      "date": "2020-04-21T22:48:40.974Z"
     },
     {
       "id": 2,
-      "message": "Chaadrive on ww 005",
-      "attencion": false,
-      "date": "03-02-2019",
-      "tech": "Alex"
-    },
-    {
-      "id": 3,
-      "message": "Changes drive on ww 005",
-      "attencion": false,
-      "date": "03-02-2019",
-      "tech": "Alex j"
-    },
-    {
-      "message": "Changed",
+      "message": "asdfa",
       "attencion": true,
-      "date": "03-02-2019",
-      "tech": "Alex jj",
-      "id": 4
+      "tech": "Jonh",
+      "date": "2020-04-21T22:48:45.362Z"
     }
   ],
   "techs": [

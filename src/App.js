@@ -5,8 +5,11 @@ import SearchBar from './components/layout/SearchBar';
 import Logs from './components/layout/logs/Logs';
 import AddBtn from './components/layout/AddBtn';
 import AddLogModal from './components/layout/logs/AddLogModal';
+import EditLogModal from './components/layout/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
 import TechListModal from './components/techs/TechListModal';
+import store from './components/store';
+import {Provider} from 'react-redux'; 
 
 const  App = () => {
   useEffect( () => {
@@ -15,17 +18,21 @@ const  App = () => {
   })
 
   return (
+    <Provider store = {store}>
     <Fragment>
       <SearchBar />
       <div className="container">
+        <Logs />
         <AddBtn />
         <AddLogModal />
+        <EditLogModal />
         <AddTechModal />
         <TechListModal />
-      <Logs />
+        
       </div>
       
     </Fragment>
+    </Provider>
   );
 }
 

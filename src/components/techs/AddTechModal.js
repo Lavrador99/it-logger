@@ -21,14 +21,14 @@ import M from 'materialize-css/dist/js/materialize.min.js';
                 <h4>New tech</h4>
                 <div className="row">
                     <div className="input-field">
-                        <input type="text" name="firstName" value={firstName} id="" onChange={e => setFirstName(e.target.value)} />
+                        <input type="text" name="firstName" value={firstName}  onChange={e => setFirstName(e.target.value)} />
                         <label htmlFor="firstName" className="active">firstName</label>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="input-field">
-                        <input type="text" name="lastName" value={lastName} id="" onChange={e => setLastName(e.target.value)} />
+                        <input type="text" name="lastName" value={lastName}  onChange={e => setLastName(e.target.value)} />
                         <label htmlFor="lastName" className="active">lastName</label>
                     </div>
                 </div>
